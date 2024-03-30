@@ -42,11 +42,11 @@ export default function Content() {
                         <div className="col">
                             <div className="row">
                                 <div className="mb-3">
-                                    <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
+                                    <label htmlFor="exampleFormControlInput1" className="form-label">Email </label>
                                     <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={email} onChange={handleChangeEmail} />
                                 </div>
                                 <div className="mb-3">
-                                    <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
+                                    <label htmlFor="exampleFormControlTextarea1" className="form-label">Comments</label>
                                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={message} onChange={handleChangeMessage}></textarea>
                                     <div className="row" style={formStyle}>
                                         <button className="btn btn-primary" onClick={handleSubmit}>Submit</button>
